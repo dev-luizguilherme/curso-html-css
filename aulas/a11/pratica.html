@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        div {
+            overflow-x: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        thead {
+            background-color: #0000ff;
+        }
+
+        tfoot {
+            background-color: #008000;
+        }
+
+        caption {
+            background-color: #808080;
+            width: fit-content;
+            margin: 10px auto;
+            border-radius: 5px;
+            color: #ffffff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>PRODUTOS</th>
+                    <th>PREÇO</th>
+                    <th>QUANTIDADE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ARROZ</td>
+                    <td>R$ 10</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>FEIJÃO</td>
+                    <td>R$ 20</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>MACARRÃO</td>
+                    <td>R$ 30</td>
+                    <td style="border-bottom-width: 0;"></td>
+                </tr>
+                <tr>
+                    <td>CARNE</td>
+                    <td colspan="2" style="text-align: center ; border-top-width: 0;">-</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>TOTAIS</td>
+                    <td>R$ 30</td>
+                    <td>600</td>
+                </tr>
+            </tfoot>
+            <caption>TABELA DE ESTOQUE</caption>
+        </table>
+    </div>
+</body>
+</html>
