@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 ~ p {
+    color: #808080;
+}
+
+h1 + p {
+    color: #0000ff;
+    font-weight: bold;
+}
+
+[meu-atributo] {
+    background-color: #ff0000;
+}
+
+input[type="text"] {
+    border: 5px solid #adff2f;
+    border-radius: 10px;
+}

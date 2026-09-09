@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Corporativo de Documentos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Portal Corporativo de Documentos</h1>
+        <p lang="pt-BR">
+            Central de documentos, notificações e links importantes da empresa.
+        </p>
+    </header>
+
+    <main>
+
+        <section aria-labelledby="formulario-titulo">
+            <h2 id="formulario-titulo">Cadastro de documento</h2>
+
+            <form action="#" method="post">
+                <div>
+                    <label for="nome">Nome do documento:</label>
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        placeholder="Digite o nome do documento"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="email">E-mail corporativo:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="nome@empresa.com"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="categoria">Categoria:</label>
+                    <select id="categoria" name="categoria" required>
+                        <option value="">Selecione uma categoria</option>
+                        <option value="rh">Recursos Humanos</option>
+                        <option value="financeiro">Financeiro</option>
+                        <option value="ti">Tecnologia</option>
+                        <option value="juridico">Jurídico</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="descricao">Descrição:</label>
+                    <textarea
+                        id="descricao"
+                        name="descricao"
+                        placeholder="Descreva o documento"
+                    ></textarea>
+                </div>
+
+                <div>
+                    <button type="submit" required>Enviar documento</button>
+                    <button type="button">Cancelar</button>
+                </div>
+            </form>
+        </section>
+
+        <section aria-labelledby="notificacoes-titulo">
+            <h2 id="notificacoes-titulo">Notificações</h2>
+
+            <article data-status="urgente">
+                <h3>Documento pendente</h3>
+                <p>O relatório financeiro precisa ser revisado ainda hoje.</p>
+            </article>
+
+            <article data-status="informativo">
+                <h3>Novo documento disponível</h3>
+                <p>Foi publicado um novo manual para os colaboradores.</p>
+            </article>
+
+            <article data-status="urgente interno">
+                <h3>Atualização urgente</h3>
+                <p>Existe uma atualização importante aguardando aprovação.</p>
+            </article>
+
+            <article data-status="normal">
+                <h3>Comunicado geral</h3>
+                <p>Confira os novos procedimentos do portal.</p>
+            </article>
+        </section>
+
+        <section aria-labelledby="documentos-titulo">
+            <h2 id="documentos-titulo">Documentos e links</h2>
+
+            <article data-info="documento aprovado">
+                <h3>Política de Segurança</h3>
+                <p>Documento oficial de segurança da informação.</p>
+                <a href="https://www.exemplo.com/politica-seguranca.pdf">
+                    Baixar PDF
+                </a>
+            </article>
+
+            <article data-info="draft documento interno">
+                <h3>Política de Segurança — Draft</h3>
+                <p>Versão preliminar aguardando revisão.</p>
+                <a href="https://www.exemplo.com/politica-seguranca-draft.pdf">
+                    Baixar rascunho em PDF
+                </a>
+            </article>
+
+            <article data-info="documento-final">
+                <h3>Manual do Colaborador</h3>
+                <p>Consulte as orientações gerais para colaboradores.</p>
+                <a href="https://www.exemplo.com/manual.pdf">
+                    Baixar manual em PDF
+                </a>
+            </article>
+        </section>
+
+        <section aria-labelledby="links-titulo">
+            <h2 id="links-titulo">Links úteis</h2>
+
+            <nav aria-label="Links corporativos">
+                <ul>
+                    <li>
+                        <a href="https://www.google.com">
+                            Site externo seguro
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.exemplo.com/sistemas">
+                            Sistema corporativo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/documentos">
+                            Documentos internos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/ajuda">
+                            Central de ajuda
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <section aria-labelledby="idiomas-titulo">
+            <h2 id="idiomas-titulo">Conteúdo por idioma</h2>
+
+            <p lang="pt">
+                Este texto está identificado apenas como português.
+            </p>
+
+            <p lang="pt-BR">
+                Este texto está identificado como português do Brasil.
+            </p>
+
+            <p lang="en">
+                This text is written in English.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p lang="pt-BR">
+            Portal Corporativo &copy; 2026 — Área de Documentos
+        </p>
+    </footer>
+
+</body>
+</html>
