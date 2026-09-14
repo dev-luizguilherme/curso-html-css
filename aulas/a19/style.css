@@ -1,0 +1,19 @@
+#container-checkbox:has(input:not(:checked)) label {
+    background-color: yellow;
+}
+
+li:not(:nth-child(1)) {
+    color: blue;
+}
+
+li:nth-child(even) {
+    background-color: #cbcbcb;
+}
+
+li:nth-child(odd) {
+    background-color: aquamarine;
+}
+
+li:nth-child(3n + 4) {
+    border: 5px solid red;
+}
