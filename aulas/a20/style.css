@@ -1,0 +1,56 @@
+h1::before {
+    content: '';
+    display: inline-block;
+    width: 3px;
+    height: 35px;
+    background-color: red;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+
+#full-article-link {
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    margin: 10px 0;
+    width: fit-content;
+}
+
+#full-article-link::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(arrow-right.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#full-article-link:hover::after {
+    transition: 1s;
+    transform: translateX(10px);
+}
+
+p::first-letter {
+    font-size: 150px;
+    float: left;
+}
+
+p::first-line {
+    font-weight: bold;
+    color: green;
+}
+
+::selection {
+    background-color: green;
+    color: white;
+}
+
+input::placeholder {
+    color: green;
+    font-style: italic;
+}
