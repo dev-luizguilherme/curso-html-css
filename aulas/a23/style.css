@@ -1,0 +1,21 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    text-align: justify;
+    background-color: #bababa;
+    width: 80%;
+    max-width: 1000px;
+    max-height: 100px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 50px auto;
+    overflow-y: auto;
+}
+
+div h1 {
+    text-align: center;
+}
