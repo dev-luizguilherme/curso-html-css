@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+#container-menu-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #a52a2a;
+    height: 10vh;
+}
+
+#container-menu-links li {
+    list-style-type: none;
+}
+
+#container-menu-links li a {
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+#section-1 {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff000086;
+}
+
+#section-1 div h1,
+#section-1 div p {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#section-1 div p {
+    width: 80vw;
+}
+
+#section-2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3cff0083;
+    flex-direction: column;
+}
+
+#section-2 div {
+    display: flex;
+}
+
+.section-2-cards {
+    width: 50%;
+    background-color: #00800083;
+}
+
+#section-2 h2,
+#section-2 div section p {
+    font-size: 3rem;
+}
+
+#section-2-card-2 {
+    background-color: #0900806f;
+}
+
+#section-3 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #002aff83;
+    flex-direction: column;
+}
+
+#section-3 h2 {
+    font-size: 3rem;
+}
+
+#section-3 img {
+    width: 80vmin;
+}
