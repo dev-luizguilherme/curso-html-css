@@ -1,0 +1,22 @@
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px #00000080;
+    font-size: 3rem;
+}
+
+p {
+    text-indent: 10px;
+    line-height: 25px;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+span {
+    font-style: italic;
+    text-decoration: line-through;
+}
